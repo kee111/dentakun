@@ -1,9 +1,17 @@
 .container {
-  background-color: black;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
     width: 50%;
-    margin: auto;
+    padding: 128px;
 }
 
 h1 {
-    color: rgb(255, 0, 0);
+    color: rgb(202, 202, 202);
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
