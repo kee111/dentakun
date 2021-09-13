@@ -8,12 +8,12 @@ function App() {
     const nums = data.map((num) => <Number num={data[num]} />);
 
     return (
-        <div className="main">
-            <h1>でんたくんあぷり</h1>
-            <div>{nums}</div>
-            <Tasu />
-            <Hiku />
-        </div>
+            <div className="container">
+                <h1>でんたくんあぷり</h1>
+                <div>{nums}</div>
+                <Tasu />
+                <Hiku />
+            </div>
     );
 }
 export default App;
